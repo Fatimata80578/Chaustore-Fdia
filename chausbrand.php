@@ -15,7 +15,7 @@ require_once 'formchaustore.php';?>
 <input type='text' name='new' placeholder='nouveau brand'> 
 <input type='submit' name='new1' value='Ajouter'>
 </form>
-<h2> Couleurs existantes</h2>
+<h2> Marques existantes</h2>
 <?php
 if(isset($_POST['new1'])){
     $nom = htmlspecialchars($_POST['new']);

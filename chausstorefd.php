@@ -53,10 +53,7 @@ if (isset($_POST['formul'.$fullcolor['id']])){
 if (isset($_POST['formula'.$fullcolor['id']])){
     header("location: delete.php?id=".$fullcolor['id']);
 };
-
-
-        
+      
 ?>
-
 </body>
 </html>
